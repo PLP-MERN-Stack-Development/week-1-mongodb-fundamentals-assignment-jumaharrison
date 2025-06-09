@@ -40,8 +40,105 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 3. Include a screenshot of your MongoDB database
 4. Update the README.md with your specific setup instructions
 
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+db.books.insertMany([
+  {
+    title: "MongoDB Basics",
+    author: "John Doe",
+    genre: "Technology",
+    published_year: 2020,
+    price: 29.99,
+    in_stock: true,
+    pages: 320,
+    publisher: "TechPress"
+  },
+  {
+    title: "Node.js in Action",
+    author: "Jane Smith",
+    genre: "Technology",
+    published_year: 2018,
+    price: 35.00,
+    in_stock: true,
+    pages: 400,
+    publisher: "NodePub"
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    genre: "Fiction",
+    published_year: 1925,
+    price: 10.00,
+    in_stock: true,
+    pages: 218,
+    publisher: "Scribner"
+  },
+  {
+    title: "React Essentials",
+    author: "Tom White",
+    genre: "Technology",
+    published_year: 2021,
+    price: 42.50,
+    in_stock: false,
+    pages: 350,
+    publisher: "CodeHouse"
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    genre: "Fiction",
+    published_year: 1949,
+    price: 8.99,
+    in_stock: true,
+    pages: 328,
+    publisher: "Harcourt"
+  },
+  {
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    genre: "Technology",
+    published_year: 2008,
+    price: 50.00,
+    in_stock: true,
+    pages: 464,
+    publisher: "Prentice Hall"
+  },
+  {
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    genre: "Science",
+    published_year: 1988,
+    price: 15.00,
+    in_stock: false,
+    pages: 256,
+    publisher: "Bantam"
+  },
+  {
+    title: "The Art of War",
+    author: "Sun Tzu",
+    genre: "Philosophy",
+    published_year: -500,
+    price: 12.00,
+    in_stock: true,
+    pages: 112,
+    publisher: "Penguin"
+  },
+  {
+    title: "Python Crash Course",
+    author: "Eric Matthes",
+    genre: "Technology",
+    published_year: 2019,
+    price: 39.99,
+    in_stock: true,
+    pages: 544,
+    publisher: "No Starch Press"
+  },
+  {
+    title: "The Road",
+    author: "Cormac McCarthy",
+    genre: "Fiction",
+    published_year: 2006,
+    price: 14.95,
+    in_stock: true,
+    pages: 287,
+    publisher: "Vintage"
+  }
+])
